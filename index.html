@@ -7,10 +7,111 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>SitOnChair</title>
 </head>
 <body>
+<header class="page-header">
+    <div class="container">
+        <a href="" class="page-logo">
+            Sit <span>on</span> chair
+        </a>
 
+        <nav class="page-nav">
+            <ul class="page-nav-list">
+                <li class="page-nav-list-el">
+                    <a href="" class="page-nav-list-link">O firmie</a>
+                    <ul class="page-nav-sublist">
+                        <li class="page-nav-sublist-el">
+                            <a href="" class="page-nav-sublist-link"> Aktualności</a>
+                        </li>
+
+                        <li class="page-nav-sublist-el">
+                            <a href="" class="page-nav-sublist-link"> Nasz team</a>
+                        </li>
+
+                        <li class="page-nav-sublist-el">
+                            <a href="" class="page-nav-sublist-link"> Historia</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="page-nav-list-el">
+                    <a href="" class="page-nav-list-link">Galeria</a>
+                </li>
+                <li class="page-nav-list-el">
+                    <a href="" class="page-nav-list-link">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="main-banner">
+    <div class="container">
+        <div class="banner" id="banner">
+            <button class="banner-prev" type="button">
+                <i class="fas fa-angle-left"></i>
+
+
+            </button>
+            <button class="banner-next" type="button">
+                <i class="fas fa-angle-right"></i>
+
+
+            </button>
+            <div class="banner-slides">
+                <div class="banner-slide banner-slide-active">1</div>
+                <div class="banner-slide">2</div>
+                <div class="banner-slide">3</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="main-contact">
+    <div class="container">
+        <h2 class="section-title">
+            Kontakt
+        </h2>
+
+        <form class="form" action="" method="">
+            <div class="form-left">
+                <div class="form-row">
+                    <label for="name" class="visuallyhidden">Imię:</label>
+                    <input class="form-control" type="text" name="name" id="name" placeholder="Imię:">
+                </div>
+                <div class="form-row">
+                    <label for="email" class="visuallyhidden">Emial:</label>
+                    <input class="form-control" type="text" name="email" id="email" placeholder="Email:">
+                </div>
+
+                <div class="form-row">
+                    <label for="messege" class="visuallyhidden">Messege:</label>
+                    <textarea class="form-control" name="messege" id="messege"
+                              placeholder="Messege:"></textarea>
+                </div>
+            </div>
+            <div class="form-right">
+                <div class="form-addition"></div>
+                <div class="form-row">
+                    <label class="form-checkbox">
+                        <input type="checkbox" class="form-checkbox-input">
+                        <span class="form-checkbox-mark"></span>
+                        <span class="form-checkbox-text">
+                            Zgadzam się na przetwarzanie danych osobowych
+                        </span>
+                    </label>
+                </div>
+                <div class="form-row">
+                    <button type="submit" class="btn form-submit-btn">
+                        Wyślij
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
 </body>
 </html>

@@ -50,19 +50,21 @@
 <section class="main-banner">
     <div class="container">
         <div class="banner" id="banner">
-            <button class="banner-prev" type="button">
+            <button class="banner-prev" type="button" onclick="plusDivs(-1)">
                 <i class="fas fa-angle-left"></i>
 
-
             </button>
-            <button class="banner-next" type="button">
+            <button class="banner-next" type="button" onclick="plusDivs(1)">
                 <i class="fas fa-angle-right"></i>
 
 
             </button>
             <div class="banner-slides">
                 <div class="banner-slide banner-slide-active">
+
                     <img src="images/black_chair.png" class="banner-left">
+                    <img src="images/red_chair.png" class="banner-left" id="banner-red-chair">
+                    <img src="images/orange_chair.png" class="banner-left" id="banner-orange-chair">
                     <div class="banner-right">
                         <h2 class="banner-title">Sit <span>on</span> our <span>chair</span></h2>
                         <p class="banner-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
@@ -74,8 +76,6 @@
                         </button>
                     </div>
                 </div>
-                <div class="banner-slide">2</div>
-                <div class="banner-slide">3</div>
             </div>
         </div>
     </div>
@@ -94,11 +94,11 @@
                 </div>
 
             </div>
-            <div class="main-art-ele">
+            <div class="main-art-ele main-art-ele-sec">
                 <a href="#" class="main-art-link">
                     <img src="images/box2_img.jpg">
                 </a>
-                <div class="main-art-art">
+                <div class="main-art-art main-art-art-sec">
                     <p class="main-art-art-chair">
                         <a href="#" class="main-art-chair">Chair MARGARITA</a>
                     </p>
@@ -230,14 +230,16 @@
         Copyright 2014 | All rights Reserved - Sit On Chair
         <div class="page-footer-right">
             <div class="page-footer-icons">
-                <img src="images/flickr.png">
-                <img src="images/vimeo.png">
-                <img src="images/pinterest.png">
-                <img src="images/twitter.png">
+                <a href="#"><img src="images/flickr.png"></a>
+                <a href="#"><img src="images/vimeo.png"></a>
+                <a href="#"><img src="images/pinterest.png"></a>
+                <a href="#"><img src="images/twitter.png"></a>
             </div>
             <div>Sit <span>on</span> Chair</div>
         </div>
     </div>
 </section>
+<script src="js/slider.js"></script>
+<script src="js/arthide.js"></script>
 </body>
 </html>

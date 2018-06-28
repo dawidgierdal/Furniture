@@ -173,7 +173,16 @@ body {
 .banner-next {
     order: 1;
 }
-
+#banner-red-chair{
+    padding: 60px;
+    height: 400px;
+    width: 420px;
+}
+#banner-orange-chair{
+   padding-top: 50px;
+    height: 350px;
+    width: 420px;
+}
 .banner-slides {
     flex-grow: 1;
     background: transparent;
@@ -189,11 +198,13 @@ body {
     font-size: 50px;
     opacity: 0;
     transition: 0.5s all;
+
 }
 
 .banner-slide-active {
     opacity: 1;
     z-index: 1;
+
 }
 
 .banner-prev:focus,
@@ -366,6 +377,7 @@ textarea.form-control {
 }
 
 .main-art-ele {
+    height: 225px;
     position: relative;
     display: flex;
     justify-content: left;
@@ -379,11 +391,9 @@ textarea.form-control {
     height: 60px;
     top: 150px;
 }
-
 .main-art-art-chair {
     padding-left: 10px;
 }
-
 .main-art-chair {
     font-weight: bold;
     text-decoration: none;
@@ -427,10 +437,9 @@ textarea.form-control {
 
 .banner-right {
     height: 400px;
-    width: 550px;
+    width: 500px;
     text-align: center;
     padding: 0 45px;
-
 }
 .banner-right p{
     font-size: 14px;

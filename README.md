@@ -1,2 +1,2 @@
 # sitOnChair
-Warsztat HTML
+https://dawidgierdal.github.io/sitOnChair/

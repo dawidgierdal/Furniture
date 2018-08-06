@@ -7,7 +7,7 @@
 
 ### Page:
 
-[Live DEMO](https://dawidgierdal.github.io/sitOnChair/)
+[Live DEMO](https://dawidgierdal.github.io/Furniture/)
 
 ### Screenshoots
 ![Image](https://github.com/dawidgierdal/sitOnChair/blob/master/Screenshots/header.PNG)
